@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Resurrection Remix 5.8.5 (7.1.2): nougat/cm-14.1 -->
+<manifest>
+  <project path="device/lge/d855" name="itsHardStyl3r/reworked-g3-d855" remote="github" revision="7.1" />
+  <project path="device/lge/g3-common" name="itsHardStyl3r/reworked-g3-common" remote="github" revision="7.1" />
+  <project path="device/qcom/common" name="LineageOS/android_device_qcom_common" remote="github" revision="cm-14.1" />
+  <project path="kernel/lge/g3" name="LineageOS/android_kernel_lge_g3" remote="github" revision="cm-14.1" />
+  <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="cm-14.1" />
+  <project path="vendor/lge" name="itsHardStyl3r/proprietary_vendor_lge" remote="github" revision="7.1" />
+  
+  <remove-project name="packages/apps/Settings" />
+  <project path="packages/apps/Settings" name="itsHardStyl3r/Resurrection_packages_apps_Settings" remote="github" revision="nougat" />
+  
+  <remove-project name="android_frameworks_base" />
+  <project path="frameworks/base" name="itsHardStyl3r/android_frameworks_base" remote="github" revision="nougat" />
+  
+  <remove-project name="frameworks/av" />
+  <project path="frameworks/av" name="LineageOS/android_frameworks_av" remote="github" revision="cm-14.1" />
+  
+  <remove-project name="frameworks/native" />
+  <project path="frameworks/native" name="LineageOS/android_frameworks_native" remote="github" revision="cm-14.1" />
+ 
+  <remove-project name="packages_apps_ResurrectionOTA" />
+  <remove-project name="packages_apps_ResurrectionStats" />
+  
+  <remove-project name="cm_platform_sdk" />
+  <project path="vendor/cmsdk" name="itsHardStyl3r/cm_platform_sdk" remote="github" revision="nougat" />
+</manifest>
