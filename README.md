@@ -1,2 +1,2 @@
-LiquidRemix (liquidremix.xml)  
  * https://github.com/LiquidRemix
+ * https://github.com/ToxycOS
