@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- ToxycOS 1.0 (8.1): ToxycOS -->
+<manifest>
+  <project path="device/xiaomi/vince" name="wendelneves7/device-xiaomi-vince" remote="github" revision="toxyc" />
+  <project path="kernel/xiaomi/vince" name="richard0387/kernel_xiaomi_vince" remote="github" revision="oreo-mr1" />
+  <project path="prebuilts/clang/host/linux-x86/7.0.2" name="hejsekvojtech/clang-r328903" remote="github" revision="7.0.2" />
+  <project path="vendor/xiaomi" name="mdeejay/vendor_xiaomi_vince" remote="github" revision="android-8.1" />
+</manifest>
